@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learn English</title>
+  <style>
+    body {
+      background-color: lightpink;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: black;
+      padding: 10px;
+    }
+
+    .buttonlink {
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 100px;
+      padding: 10px;
+      color: white;
+    }
+
+    .buttonlink:hover {
+      background-color: #555; 
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <a class= "buttonlink" href = "index.html">Home</a>
+    <a class= "buttonlink" href = "Lesson1.html">Lesson#1</a>
+    <a class= "buttonlink" href = "Quiz1.html">Quiz#1</a>
+    <a class= "buttonlink" href = "Lesson2.html">Lesson#2</a>
+    <a class= "buttonlink" href = "Quiz2.html">Quiz#2</a>
+  </header>
+
+  <h1>Quiz#2</h1>
+  <h3>Quiz#2 Time!</h3>
+
+  <label>How do you say 1 in English?</label>
+  <input type = "radio" name="number1" onclick = "right()">one
+  <input type = "radio" name="number1">two
+  <input type = "radio" name="number1">three
+  <input type = "radio" name="number1">four
+  <input type = "radio" name="number1">five
+  <br>
+  <br>
+
+  <label>How do you say 2 in English?</label>
+  <input type = "radio" name="number2">one
+  <input type = "radio" name="number2" onclick = "right()"">two
+  <input type = "radio" name="number2">three
+  <input type = "radio" name="number2">four
+  <input type = "radio" name="number2">five
+  <br>
+  <br>
+  
+
+  <label>How do you say 3 in English?</label>
+  <input type = "radio" name="number3">one
+  <input type = "radio" name="number3">two
+  <input type = "radio" name="number3"onclick = "right()">three
+  <input type = "radio" name="number3">four
+  <input type = "radio" name="number3">five
+  <br>
+  <br>
+
+  <label>How do you say 4 in English?</label>
+  <input type = "radio" name="number4">one
+  <input type = "radio" name="number4">two
+  <input type = "radio" name="number4">three
+  <input type = "radio" name="number4"onclick = "right()">four
+  <input type = "radio" name="number4">five
+  <br>
+  <br>
+
+  <label>How do you say 5 in English?</label>
+  <input type = "radio" name="number5" >one
+  <input type = "radio" name="number5">two
+  <input type = "radio" name="number5">three
+  <input type = "radio" name="number5">four
+  <input type = "radio" name="number5"onclick = "right()">five
+  <br>
+  <br>
+
+  <script>
+    function right() {
+      alert("Correct!");
+    }
+
+  </script>
+</body>
+
+</html>
