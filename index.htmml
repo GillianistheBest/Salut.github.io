@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Learn English</title>
+  <style>
+    body {
+      background-color: lightpink;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: black;
+      padding: 10px;
+    }
+
+    .buttonlink {
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 100px;
+      padding: 10px;
+      color: white;
+    }
+
+    .buttonlink:hover {
+      background-color: #555;
+    }
+
+    .color-box {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 0 10px;
+      border: solid black 1px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <a class= "buttonlink" href = "index.html">Home</a>
+    <a class= "buttonlink" href = "Lesson1.html">Lesson#1</a>
+    <a class= "buttonlink" href = "Quiz1.html">Quiz#1</a>
+    <a class= "buttonlink" href = "Lesson2.html">Lesson#2</a>
+    <a class= "buttonlink" href = "Quiz2.html">Quiz#2</a>
+  </header>
+
+
+  <h1> Lesson #1</h1>
+  <h2> you will be learning "colours"!!</h2>
+
+
+  <label>Red</label>
+  <div class="color-box" style="background-color: red;"></div>
+  
+  <label>Orange</label>
+  <div class="color-box" style="background-color: orange;"></div>
+ 
+  <label>Yellow</label>
+  <div class="color-box" style="background-color: yellow;"></div>
+  
+  <label>Green</label>
+  <div class="color-box" style="background-color: green;"></div>
+  
+  <label>Blue</label>
+  <div class="color-box" style="background-color: blue;"></div>
+
+  <label>Purple</label>
+  <div class="color-box" style="background-color: purple;"></div>
+  
+  <label>Pink</label>
+  <div class="color-box" style="background-color: pink;"></div>
+
+</body>
+
+</html>
